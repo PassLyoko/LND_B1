@@ -1,0 +1,69 @@
+.mats{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: cyan;
+	position: relative;
+	top: 5px;
+	margin: 0 auto;
+}
+.mats2{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.mat{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background: cyan;
+	position: relative;
+	margin: 0 auto;
+}
+.mat2{
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.mat .mat2_1{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 140px;
+	left: 140px;
+	background: cyan;
+	border-radius: 50%;
+}
+.mat .kim{
+	width: 10px;
+	height: 240px;
+	/*background: cyan;*/
+	position: absolute;
+	top: 30px;
+	left: 145px;
+}
+.mat .h{
+	height: 200px;
+	top: 50px;
+}
+.mat .kim .tren{
+	width: 100%;
+	height: 50%;
+	background: cyan;
+}
+.mat:hover .kim{
+	transform: rotate(21600deg);
+	transition: 60s ease;
+}
+.mat:hover .h{
+	transform: rotate(360deg);
+	transition: 60s;
+}
